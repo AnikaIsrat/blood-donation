@@ -1,0 +1,32 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+}
+
+.hero {
+    height: 80vh;
+    background: linear-gradient(rgba(220,53,69,0.7), rgba(220,53,69,0.7)),
+                url('../images/blood_bg.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.stats .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stats .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
